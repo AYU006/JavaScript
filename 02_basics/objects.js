@@ -13,3 +13,9 @@ JsUser.greetings=function(){
 console.log(JsUser.Name);
 console.log(JsUser["email"]);
 console.log(JsUser.greetings());
+// vaule ko access karnwe ka naya tarika 
+const {Name}=JsUser
+console.log(Name);
+// property ko new name bhi de saktw hai
+const {Name:Y}=JsUser
+console.log(Y);
